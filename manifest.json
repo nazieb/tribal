@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Tribal",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://tribunnews.com/*",
+        "*://*.tribunnews.com/*",
+        "*://grid.id/*",
+        "*://*.grid.id/*"
+      ],
+      "js": ["index.js"]
+    }
+  ]
+}
